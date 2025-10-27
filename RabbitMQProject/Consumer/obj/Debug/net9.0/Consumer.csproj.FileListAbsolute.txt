@@ -16,3 +16,4 @@ C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.pdb
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.genruntimeconfig.cache
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\ref\Consumer.dll
+C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.sourcelink.json

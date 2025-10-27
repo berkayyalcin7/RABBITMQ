@@ -23,7 +23,7 @@ var consumer = new AsyncEventingBasicConsumer(channel);
 // Mesaj alma işlemi başlatılır.
 // autoAck: true olarak ayarlanırsa, mesajı aldıktan sonra otomatik olarak silinir.
 // false olarak ayarlanırsa, mesajı aldıktan sonra manuel olarak silinir.
-await channel.BasicConsumeAsync(queue: "exampleQueue", false, consumer: consumer);
+await channel.BasicConsumeAsync(queue: "exampleQueue", autoAck:false, consumer: consumer);
 
 consumer.ReceivedAsync += async (model, ea) =>
 {
@@ -32,6 +32,62 @@ consumer.ReceivedAsync += async (model, ea) =>
     var message = Encoding.UTF8.GetString(ea.Body.Span);
     // Mesajı ekrana yazdırır.
     Console.WriteLine("Mesaj alındı: {0}", message);
+
+    //Mesajı silme - Başarılı işlemlerde
+    await channel.BasicAckAsync(ea.DeliveryTag, false);
+
+    // ===== CANCEL, REJECT VE NACK ARASINDAKİ FARKLAR =====
+
+    // 1. CANCEL (BasicCancelAsync):
+    // - Consumer'ı iptal eder ve kapatır
+    // - Sadece tek bir mesaj için değil, tüm consumer'ı kapatır
+    // - Mesajı silmez, sadece consumer'ı durdurur
+    // - Kullanım: await channel.BasicCancelAsync(consumerTag);
+    // - Genellikle consumer'ı tamamen kapatmak için kullanılır
+
+    // 2. REJECT (BasicRejectAsync):
+    // - Tek bir mesajı reddeder
+    // - Mesajı siler veya Dead Letter Queue'ya gönderir
+    // - requeue parametresi ile mesajın tekrar kuyruğa atılıp atılmayacağını belirler
+    // - Kullanım: await channel.BasicRejectAsync(ea.DeliveryTag, requeue: false);
+    // - requeue: true -> mesajı tekrar kuyruğa atar
+    // - requeue: false -> mesajı siler veya DLQ'ya gönderir
+
+    // 3. NACK (BasicNackAsync):
+    // - Negative Acknowledgment (Olumsuz Onay)
+    // - Tek veya birden fazla mesajı reddeder
+    // - multiple parametresi ile birden fazla mesajı reddedebilir
+    // - requeue parametresi ile mesajın tekrar kuyruğa atılıp atılmayacağını belirler
+    // - Kullanım: await channel.BasicNackAsync(ea.DeliveryTag, multiple: false, requeue: true);
+    // - multiple: true -> o mesajdan önceki tüm mesajları da reddeder
+    // - multiple: false -> sadece o mesajı reddeder
+    // - requeue: true -> mesajı tekrar kuyruğa atar
+    // - requeue: false -> mesajı siler veya DLQ'ya gönderir
+
+    // ===== ÖRNEK KULLANIMLAR =====
+
+    // Başarılı işlem - mesajı onayla
+    // await channel.BasicAckAsync(ea.DeliveryTag, false);
+
+    // Mesajı reddet ve tekrar kuyruğa at (retry için)
+    // await channel.BasicRejectAsync(ea.DeliveryTag, requeue: true);
+
+    // Mesajı reddet ve sil (DLQ'ya gönder)
+    // await channel.BasicRejectAsync(ea.DeliveryTag, requeue: false);
+
+    // Mesajı NACK ile reddet ve tekrar kuyruğa at
+    // await channel.BasicNackAsync(ea.DeliveryTag, multiple: false, requeue: true);
+
+    // Mesajı NACK ile reddet ve sil
+    // await channel.BasicNackAsync(ea.DeliveryTag, multiple: false, requeue: false);
+
+    // Birden fazla mesajı NACK ile reddet
+    // await channel.BasicNackAsync(ea.DeliveryTag, multiple: true, requeue: false);
+
+    // Consumer'ı tamamen kapat
+    // await channel.BasicCancelAsync(consumerTag);
+
 };
+
 // Mesaj alma işlemi beklenir.
 Console.Read();
