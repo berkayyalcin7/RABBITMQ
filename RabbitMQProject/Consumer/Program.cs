@@ -6,7 +6,7 @@ using System.Text;
 ConnectionFactory factory = new ConnectionFactory();
 factory.HostName = "localhost";
 factory.UserName = "admin";
-factory.Password = "admin123";
+factory.Password = "admin";
 factory.VirtualHost = "/";
 
 // Bağlantı oluşturma
@@ -23,7 +23,7 @@ var consumer = new AsyncEventingBasicConsumer(channel);
 // Mesaj alma işlemi başlatılır.
 // autoAck: true olarak ayarlanırsa, mesajı aldıktan sonra otomatik olarak silinir.
 // false olarak ayarlanırsa, mesajı aldıktan sonra manuel olarak silinir.
-await channel.BasicConsumeAsync(queue: "exampleQueue", false, consumer: consumer);
+await channel.BasicConsumeAsync(queue: "exampleQueue", autoAck:false, consumer: consumer);
 
 consumer.ReceivedAsync += async (model, ea) =>
 {
@@ -32,6 +32,14 @@ consumer.ReceivedAsync += async (model, ea) =>
     var message = Encoding.UTF8.GetString(ea.Body.Span);
     // Mesajı ekrana yazdırır.
     Console.WriteLine("Mesaj alındı: {0}", message);
+
+    // Mesajı siler. 
+    // Başarılı bir şekilde mesajı aldığımızı ve silindiğini gösterir.
+    // Multiple : false olarak ayarlanırsa, sadece bir mesaj silinir.
+    // true olarak ayarlanırsa, tüm mesajlar silinir.
+    await channel.BasicAckAsync(ea.DeliveryTag,multiple: false);
+    Console.WriteLine("Mesaj silindi: {0}", ea.DeliveryTag);
+    Console.WriteLine("Mesaj silindi: {0}", ea.Body.Span);
 };
 // Mesaj alma işlemi beklenir.
 Console.Read();

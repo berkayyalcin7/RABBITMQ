@@ -13,7 +13,7 @@ namespace RabbitMQProject.Publisher
                 HostName = "localhost",
                 Port = 5672,
                 UserName = "admin",
-                Password ="admin123",
+                Password = "admin",
                 VirtualHost = "/"
             };
 
@@ -28,9 +28,9 @@ namespace RabbitMQProject.Publisher
             await channel.QueueDeclareAsync(queue: "exampleQueue", exclusive: false, autoDelete: false);
 
             // Random mesaj gönderme
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < 100; i++)
             {
-                await Task.Delay(2000);
+                await Task.Delay(200);
                 // Mesaj gönderme - RabbitMQ kuyruğa atacağı mesajları byte array'ine çevirir ve kuyruğa atar.
                 var message = Encoding.UTF8.GetBytes($"Hello, RabbitMQ! {i}");
                 // BasicPublishAsync metodu ile mesajı kuyruğa atar.
