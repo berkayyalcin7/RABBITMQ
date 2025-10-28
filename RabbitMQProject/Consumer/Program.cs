@@ -26,7 +26,7 @@ var consumer = new AsyncEventingBasicConsumer(channel);
 // false olarak ayarlanırsa, mesajı aldıktan sonra manuel olarak silinir.
 await channel.BasicConsumeAsync(queue: "exampleQueue", autoAck:false, consumer: consumer);
 // BasicQos parametresi - Mesaj akışını kontrol eder ve consumer'ın kaç mesaj alacağını belirler
-channel.BasicQos(0,1,false); // 0: prefetch size (mesaj boyutu sınırı - 0=sınırsız), 1: prefetch count (aynı anda alınacak mesaj sayısı), false: global (sadece bu consumer için geçerli)
+await channel.BasicQosAsync(0,1,false); // 0: prefetch size (mesaj boyutu sınırı - 0=sınırsız), 1: prefetch count (aynı anda alınacak mesaj sayısı), false: global (sadece bu consumer için geçerli)
 
 consumer.ReceivedAsync += async (model, ea) =>
 {

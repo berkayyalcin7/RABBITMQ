@@ -1,21 +1,16 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B9D9F357-0D7C-44CB-85D0-761C58634E29}|RabbitMQProject.Publisher\\RabbitMQProject.Publisher.csproj|c:\\users\\b_yalcin\\documents\\projeler\\myworks\\rabbitmq\\project\\rabbitmqproject\\rabbitmqproject.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B9D9F357-0D7C-44CB-85D0-761C58634E29}|RabbitMQProject.Publisher\\RabbitMQProject.Publisher.csproj|solutionrelative:rabbitmqproject.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95BA0750-110F-43E1-A995-8E94142A6C83}|FanoutExchange.Consumer\\FanoutExchange.Consumer.csproj|c:\\users\\b_yalcin\\documents\\projeler\\myworks\\rabbitmq\\project\\rabbitmqproject\\fanoutexchange.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95BA0750-110F-43E1-A995-8E94142A6C83}|FanoutExchange.Consumer\\FanoutExchange.Consumer.csproj|solutionrelative:fanoutexchange.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|Consumer\\Consumer.csproj|c:\\users\\b_yalcin\\documents\\projeler\\myworks\\rabbitmq\\project\\rabbitmqproject\\consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|Consumer\\Consumer.csproj|solutionrelative:consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C24DBCC4-5FB7-4681-82BF-FA7516F95AC6}|FanoutExchange.Publisher\\FanoutExchange.Publisher.csproj|c:\\users\\b_yalcin\\documents\\projeler\\myworks\\rabbitmq\\project\\rabbitmqproject\\fanoutexchange.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C24DBCC4-5FB7-4681-82BF-FA7516F95AC6}|FanoutExchange.Publisher\\FanoutExchange.Publisher.csproj|solutionrelative:fanoutexchange.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
-=======
-  "WorkspaceRootPath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\",
-  "Documents": [],
->>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -23,11 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
-<<<<<<< HEAD
-          "SelectedChildIndex": 3,
-=======
-          "SelectedChildIndex": -1,
->>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,35 +29,30 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-<<<<<<< HEAD
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\Consumer\\Program.cs",
-              "RelativeDocumentMoniker": "Consumer\\Program.cs",
-              "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\Consumer\\Program.cs",
-              "RelativeToolTip": "Consumer\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\Program.cs",
+              "RelativeDocumentMoniker": "FanoutExchange.Consumer\\Program.cs",
+              "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\Program.cs",
+              "RelativeToolTip": "FanoutExchange.Consumer\\Program.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwCwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:26:15.372Z",
+              "WhenOpened": "2025-10-28T07:46:02.45Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\RabbitMQProject.Publisher\\Program.cs",
-              "RelativeDocumentMoniker": "RabbitMQProject.Publisher\\Program.cs",
-              "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\RabbitMQProject.Publisher\\Program.cs",
-              "RelativeToolTip": "RabbitMQProject.Publisher\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA1wA4AAAAjAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Publisher\\Program.cs",
+              "RelativeDocumentMoniker": "FanoutExchange.Publisher\\Program.cs",
+              "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Publisher\\Program.cs",
+              "RelativeToolTip": "FanoutExchange.Publisher\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T10:23:43.392Z",
+              "WhenOpened": "2025-10-28T07:41:26.466Z",
               "EditorCaption": ""
-=======
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
->>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
             }
           ]
         }

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FanoutExchange.Publisher\\FanoutExchange.Publisher.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FanoutExchange.Consumer\\FanoutExchange.Consumer.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
