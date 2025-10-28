@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\",
   "Documents": [
     {
@@ -11,6 +12,10 @@
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|Consumer\\Consumer.csproj|solutionrelative:consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\",
+  "Documents": [],
+>>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +23,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 216,
+<<<<<<< HEAD
           "SelectedChildIndex": 3,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,6 +38,7 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
@@ -53,6 +63,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T10:23:43.392Z",
               "EditorCaption": ""
+=======
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+>>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4
             }
           ]
         }

@@ -16,6 +16,7 @@ C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.pdb
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.genruntimeconfig.cache
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\ref\Consumer.dll
+<<<<<<< HEAD
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\bin\Debug\net9.0\Consumer.exe
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\bin\Debug\net9.0\Consumer.deps.json
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\bin\Debug\net9.0\Consumer.runtimeconfig.json
@@ -35,3 +36,6 @@ C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Co
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.pdb
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.genruntimeconfig.cache
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Consumer\obj\Debug\net9.0\ref\Consumer.dll
+=======
+C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\Consumer\obj\Debug\net9.0\Consumer.sourcelink.json
+>>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4

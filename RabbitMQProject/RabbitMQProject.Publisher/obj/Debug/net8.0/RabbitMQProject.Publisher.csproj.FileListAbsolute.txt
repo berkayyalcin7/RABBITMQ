@@ -17,6 +17,7 @@ C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\RabbitMQProject.Publis
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\RabbitMQProject.Publisher.pdb
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\RabbitMQProject.Publisher.genruntimeconfig.cache
 C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\ref\RabbitMQProject.Publisher.dll
+<<<<<<< HEAD
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\bin\Debug\net8.0\RabbitMQProject.Publisher.exe
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\bin\Debug\net8.0\RabbitMQProject.Publisher.deps.json
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\bin\Debug\net8.0\RabbitMQProject.Publisher.runtimeconfig.json
@@ -37,3 +38,6 @@ C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\Ra
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\RabbitMQProject.Publisher.pdb
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\RabbitMQProject.Publisher.genruntimeconfig.cache
 C:\Users\b_yalcin\Documents\Projeler\MYWORKS\RabbitMQ\Project\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\ref\RabbitMQProject.Publisher.dll
+=======
+C:\Users\BERKAY\Desktop\PROJECTS\RABBITMQ\RabbitMQProject\RabbitMQProject.Publisher\obj\Debug\net8.0\RabbitMQProject.Publisher.sourcelink.json
+>>>>>>> 641e1b5f0f263cbe83bcae86ba4089c1f7bd1ec4

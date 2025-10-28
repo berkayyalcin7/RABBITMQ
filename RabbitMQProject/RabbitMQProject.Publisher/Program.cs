@@ -25,10 +25,17 @@ namespace RabbitMQProject.Publisher
 
             // Queue oluşturma. exclusive : true olarak ayarlanırsa, başka bir client bu queue'yi kullanamaz. 
             // autoDelete : true olarak ayarlanırsa, queue boş ise silinir.
-            await channel.QueueDeclareAsync(queue: "exampleQueue", exclusive: false, autoDelete: false);
+            // Kuyruğun kalıcı olabilmesi için durable: true olarak ayarlanır.
+            await channel.QueueDeclareAsync(queue: "exampleQueue", exclusive: false, autoDelete: false, durable: true);
+            // BasicProperties oluşturma
+            // Persistent: true olarak ayarlanırsa, mesajı kalıcı olarak kuyruğa atar.   
+            var basicProperties = new BasicProperties
+            {
+                Persistent = true
+            };
 
             // Random mesaj gönderme
-            for (int i = 0; i < 100; i++)
+            for (int i = 100; i < 200; i++)
             {
                 await Task.Delay(200);
                 // Mesaj gönderme - RabbitMQ kuyruğa atacağı mesajları byte array'ine çevirir ve kuyruğa atar.
@@ -39,10 +46,6 @@ namespace RabbitMQProject.Publisher
                 // body: message olarak ayarlanırsa, mesajı kuyruğa atar.
                 await channel.BasicPublishAsync(exchange: "", routingKey: "exampleQueue", body: message);
             }
-            Console.WriteLine("Mesaj gönderildi.");
-
-            Console.Read();
-
         }
     }
 }
