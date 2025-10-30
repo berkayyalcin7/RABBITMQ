@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DirectExchange.Publisher")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea2c4792b9c1dc957469485c4e9c1bd103759545")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4961707f2e3722a8035d19f0f259d7cd3817a3e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DirectExchange.Publisher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DirectExchange.Publisher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "FanoutExchange.Consumer\\Program.cs",
               "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\Program.cs",
               "RelativeToolTip": "FanoutExchange.Consumer\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAmwC8AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T07:46:02.45Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "FanoutExchange.Publisher\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T07:41:26.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-28T07:41:26.466Z"
             }
           ]
         }
