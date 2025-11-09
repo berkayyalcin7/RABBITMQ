@@ -136,8 +136,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\b_yalcin\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Users\\BERKAY\\.nuget\\packages\\": {},
     "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
@@ -145,21 +144,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\TopicExchange.Publisher\\TopicExchange.Publisher.csproj",
+      "projectUniqueName": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\TopicExchange.Publisher\\TopicExchange.Publisher.csproj",
       "projectName": "TopicExchange.Publisher",
-      "projectPath": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\TopicExchange.Publisher\\TopicExchange.Publisher.csproj",
-      "packagesPath": "C:\\Users\\b_yalcin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\TopicExchange.Publisher\\obj\\",
+      "projectPath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\TopicExchange.Publisher\\TopicExchange.Publisher.csproj",
+      "packagesPath": "C:\\Users\\BERKAY\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\TopicExchange.Publisher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\b_yalcin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Users\\BERKAY\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
@@ -170,9 +167,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 24.2\\Components\\System\\Components\\Packages": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -191,7 +187,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -218,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

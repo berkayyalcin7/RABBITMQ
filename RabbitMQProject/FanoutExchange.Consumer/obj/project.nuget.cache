@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "m1tDkx04PlE=",
+  "dgSpecHash": "/q/e4HX2DBs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\FanoutExchange.Consumer.csproj",
+  "projectFilePath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\FanoutExchange.Consumer\\FanoutExchange.Consumer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\b_yalcin\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
-    "C:\\Users\\b_yalcin\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
-    "C:\\Users\\b_yalcin\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+    "C:\\Users\\BERKAY\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
+    "C:\\Users\\BERKAY\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\BERKAY\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

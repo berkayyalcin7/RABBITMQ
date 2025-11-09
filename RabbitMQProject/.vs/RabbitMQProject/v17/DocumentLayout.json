@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3C4D5E6-F7A8-9012-CDEF-123456789ABC}|MessageTemplate.Consumer\\MessageTemplate.Consumer.csproj|c:\\users\\berkay\\desktop\\projects\\rabbitmq\\rabbitmqproject\\messagetemplate.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3C4D5E6-F7A8-9012-CDEF-123456789ABC}|MessageTemplate.Consumer\\MessageTemplate.Consumer.csproj|solutionrelative:messagetemplate.consumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Publisher\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MessageTemplate.Publisher\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2B3C4D5-E6F7-8901-BCDE-F123456789AB}|MessageTemplate.Publisher\\MessageTemplate.Publisher.csproj|c:\\users\\berkay\\desktop\\projects\\rabbitmq\\rabbitmqproject\\messagetemplate.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2B3C4D5-E6F7-8901-BCDE-F123456789AB}|MessageTemplate.Publisher\\MessageTemplate.Publisher.csproj|solutionrelative:messagetemplate.publisher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Consumer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MessageTemplate.Consumer\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,7 +25,6 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-<<<<<<< HEAD
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
@@ -35,31 +34,16 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
-=======
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\Program.cs",
-              "RelativeDocumentMoniker": "FanoutExchange.Consumer\\Program.cs",
-              "ToolTip": "C:\\Users\\b_yalcin\\Documents\\Projeler\\MYWORKS\\RabbitMQ\\Project\\RabbitMQProject\\FanoutExchange.Consumer\\Program.cs",
-              "RelativeToolTip": "FanoutExchange.Consumer\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-28T07:46:02.45Z",
-              "EditorCaption": ""
-            },
->>>>>>> 8b5ee5f1fb31589e77fe92e31fbd745545cc50b3
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Publisher\\Program.cs",
               "RelativeDocumentMoniker": "MessageTemplate.Publisher\\Program.cs",
               "ToolTip": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Publisher\\Program.cs",
               "RelativeToolTip": "MessageTemplate.Publisher\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD8AAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-<<<<<<< HEAD
               "WhenOpened": "2025-11-09T12:26:08.243Z",
               "EditorCaption": ""
             }
@@ -71,19 +55,16 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Consumer\\Program.cs",
               "RelativeDocumentMoniker": "MessageTemplate.Consumer\\Program.cs",
               "ToolTip": "C:\\Users\\BERKAY\\Desktop\\PROJECTS\\RABBITMQ\\RabbitMQProject\\MessageTemplate.Consumer\\Program.cs",
               "RelativeToolTip": "MessageTemplate.Consumer\\Program.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowF4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-09T12:26:22.695Z",
               "EditorCaption": ""
-=======
-              "WhenOpened": "2025-10-28T07:41:26.466Z"
->>>>>>> 8b5ee5f1fb31589e77fe92e31fbd745545cc50b3
             }
           ]
         }
