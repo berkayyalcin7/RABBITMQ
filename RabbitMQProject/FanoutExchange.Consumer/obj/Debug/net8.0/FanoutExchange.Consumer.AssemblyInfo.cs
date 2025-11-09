@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FanoutExchange.Consumer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+810f7cdab2d16b4fa01ef4ed08b995e25e68f3d4")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4961707f2e3722a8035d19f0f259d7cd3817a3e6")]
+>>>>>>> 8b5ee5f1fb31589e77fe92e31fbd745545cc50b3
 [assembly: System.Reflection.AssemblyProductAttribute("FanoutExchange.Consumer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FanoutExchange.Consumer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
