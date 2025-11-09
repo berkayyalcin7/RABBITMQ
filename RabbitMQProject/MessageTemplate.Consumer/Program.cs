@@ -90,9 +90,83 @@ Console.WriteLine("MessageTemplate Consumer başlatıldı. Bağlantı kuruldu.")
 
 
 #region Work/Queue Tasarımı -> Acknowledgment kullanarak mesajları işleme
-string queueName = "example-work-queue";
+//Tüm consumerlar aynı eşit yükü paylaşır.
 
 
+//string queueName = "example-work-queue";
+
+//await channel.QueueDeclareAsync(queueName,
+//    durable: true,
+//    exclusive: false,
+//    autoDelete: false);
+
+//var consumer = new AsyncEventingBasicConsumer(channel);
+
+//await channel.BasicConsumeAsync(
+//    queue: queueName,
+//    autoAck: true,
+//    consumer: consumer);
+
+//await channel.BasicQosAsync(
+//    prefetchSize: 0,
+//    prefetchCount: 1,
+//    global: false);
+
+////Receive etme
+//consumer.ReceivedAsync += async (model, ea) =>
+//{
+//    var body = ea.Body.ToArray();
+//    var message = Encoding.UTF8.GetString(body);
+//    Console.WriteLine($"[x] Alınan Mesaj: {message}");
+//    // Mesaj işlendiğinde onay gönder
+//    await channel.BasicAckAsync(ea.DeliveryTag, multiple: false);
+//};
+
+
+
+
+#endregion
+
+#region Request Response Tasarımı
+
+// queue tanımı
+string queueName = "example-request-response-queue";
+
+await channel.QueueDeclareAsync(queueName,
+    durable: false,
+    exclusive: false,
+    autoDelete: false);
+
+// Tüketici tanımı
+var consumer = new AsyncEventingBasicConsumer(channel);
+// Mesaj alındığında çalışacak event
+await channel.BasicConsumeAsync(
+    queue: queueName,
+    autoAck: true,
+    consumer: consumer);
+
+// Mesajları dinleme
+consumer.ReceivedAsync += async (model, ea) =>
+{
+    var body = ea.Body.ToArray();
+    var message = Encoding.UTF8.GetString(body);
+    Console.WriteLine($"[x] Alınan Mesaj: {message}");
+    // Response mesajı oluşturma
+    string responseMessage = $"Response: {message}";
+    byte[] responseBody = Encoding.UTF8.GetBytes(responseMessage);
+
+    // Response mesajını gönderme
+    await channel.BasicPublishAsync(
+        exchange: "",
+        routingKey: ea.BasicProperties.ReplyTo, // ReplyTo kuyruğuna gönder
+        false,
+        new BasicProperties
+        {
+            CorrelationId = ea.BasicProperties.CorrelationId
+        },
+        responseBody);
+    Console.WriteLine($"[x] Gönderilen Response Mesajı: {responseMessage}");
+};
 
 
 #endregion
